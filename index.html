@@ -8,6 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="content">
+        <div class="picture">
+            <img class="logoImage" src="./images/odin-lined.png" alt="">
+            <h2 class="logoText">ODIN</h2>
+        </div>
+        <div class="formContent">
+            <div class="dummyText">
+                <p>This isn't a real online service! Please don't put your actual information on there. Well, even if you did there's no backend but you still shouldn't!</p>
+                <p>Sign up <i>now</i> to get started.</p>
+                <br>
+                <p class="remoteText">You <i>know</i> you want to.</p>
+            </div>
+            <br>
+            <form action="#">
+                <div class="form sideOne" id="signUpForm">
+                    <p class="formTitle">Start Here!</p>
+                    <br>
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" name="firstName" id="firstName">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" name="lastName" id="lastName">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                    <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="passwordConfirm" id="passwordConfirm">
+                    <button type="submit" form="signUpForm" value="Submit">Create Account</button>
+                </div>
+            </form>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="signIn">Already have an account? Sign in here!</a>
+        </div>
+        
+        <footer>
+            <a href="https://github.com/aishyuu/sign-up-form" target="_blank" class="footerText">Made by Aishyuu</a>
+        </footer>
+    </div>
 </body>
 </html>
